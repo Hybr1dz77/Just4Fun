@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particles</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .content {
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+       .game-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+   
+
+      .game-button {
+        background-color: #ff5e5e;
+        color: white;
+        border: 1.5px solid black;
+        border-radius: 25px;
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 10px;
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+        font-family: 'Lexend', sans-serif;
+        font-weight: bold;
+      }
+      
+      #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff5e5e;
+        border: 2px solid black;
+        border-radius: 50px;
+        width: 350px;
+        height: 80px;
+        margin: 20px auto;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lexend', sans-serif;
+    </style>
+  </head>
+  <body>
+    <div id="tsparticles"></div>
+    <div class="content">
+  <div id="header">Just4Fun</div>
+  <div class="game-container">
+   <button class="game-button" data-url="https://interstellar-test-2.onrender.com">Interstellar</button>
+      <button class="game-button" data-url="https://lucky-crow-coat.cyclic.app/games">Radon Games</button>
+      <button class="game-button" data-url="https://webretro-f1gam4w5z-hybr1dz77.vercel.app">Webretro</button>
+ <button class="game-button" data-url="https://aromatic-global-baroness.glitch.me/uv/service/hvtrs8%2F-sjuvtne%2Fgcmgs%2Fh6z%3Adey%3As%2Fh%7Bbp1fz57%2Cvgraen.cpr%2F">Shuttle Games</button>
+ <button class="game-button" data-url="https://frost-decorous-cart.glitch.me">Nebula</button>
+ <button class="game-button" data-url="https://aromatic-global-baroness.glitch.me">Ultraviolet</button>
+  <button class="game-button" data-url="https://login.companymagic.com/game/1v1lol/">1v1.LOL</button>
+ <button class="game-button" data-url="https://login.companymagic.com/game/basketball-stars/">Basketball Stars</button>
+<button class="game-button" data-url="https://bitlife-3qo3e2yki-hybr1dz77.vercel.app">Bit Life</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/cookie-clicker/">Cookie Clicker</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/drive-mad/">Drive Mad</button>
+<button class="game-button" data-url="https://watchdocumentaries.com/wp-content/uploads/games/crossy-road/index.html?world=original">Crossy Road</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/jetpack-joyride/">Jetpack Joyride</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/just-fall/">Just Fall.LOL</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/mario-kart-super/">Mario Kart</button>
+<button class="game-button" data-url="https://minecraftforneenah-games.vercel.app">Minecraft</button>
+<button class="game-button" data-url="https://monkey-market-1.vercel.app">Monkey Mart</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/pokemon/emerald/">Pokemon Emerald</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/pokemon/fire-red/">Pokemon Firered</button>
+<button class="game-button" data-url="https://paper-io-1-j24mv802q-hybr1dz77.vercel.app">Paper.io</button>
+<button class="game-button" data-url="https://retro-bowl-1-ten.vercel.app">Retro Bowl</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/slope/">Slope</button>
+<button class="game-button" data-url="https://stickman-hook-1.vercel.app">Stickman Hook</button>
+<button class="game-button" data-url="https://subway-surfers-1-fjsbaq5nh-hybr1dz77.vercel.app">Subway Surfers</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/smashkarts/">Smash Karts</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/vex6/">Vex 6</button>
+  </div>
+  <script>
+    // JavaScript code for the content goes here
+  </script>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+
+<script type="text/javascript">
+  const options = {
+    background: {
+      color: "#222",
+    },
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: "push",
+        },
+        onHover: {
+          enable: true,
+          mode: "repulse",
+        },
+      },
+      modes: {
+        push: {
+          quantity: 6,
+        },
+        repulse: {
+          distance: 100,
+        },
+      },
+    },
+    particles: {
+      links: {
+        enable: true,
+        opacity: 0.4,
+        distance: 200,
+      
+      },
+      move: {
+        enable: true,
+        speed: { min: .5, max: 1.5 },
+      },
+      opacity: {
+        value: { min: .3, max: .7 },
+      },
+      size: {
+        value: { min: 1, max: 3 },
+
+      },
+    },
+  };
+  tsParticles.load("tsparticles", options);
+  
+       const buttons = document.querySelectorAll('.game-button');
+
+      buttons.forEach(button => {
+        const url = button.dataset.url;
+        button.addEventListener('click', function() {
+          const win = window.open('about:blank', '_blank');
+          win.document.body.style.margin = '0';
+          win.document.body.style.height = '100vh';
+          const iframe = win.document.createElement('iframe');
+          iframe.style.border = 'none';
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.margin = '0';
+          iframe.src = url;
+          win.document.body.appendChild(iframe);
+        });
+      });
+      
+      window.addEventListener('beforeunload', function(e) {
+        e.preventDefault(); // Cancel the event
+        e.returnValue = ''; // Chrome requires returnValue to be set
+        // Display a message
+        var confirmationMessage = 'Are you sure you want to leave this page?';
+        (e || window.event).returnValue = confirmationMessage; // Gecko + IE
+        return confirmationMessage; // Webkit, Safari, Chrome etc.
+      });
+    </script>
+  </body>
+</html>
