@@ -115,7 +115,7 @@
           events: {
             onClick: {
               // this handles the mouse click event
-              enable: true,
+              enable: false,
               mode: "push", // this adds particles
             },
             onHover: {
@@ -129,7 +129,7 @@
               quantity: 3, // number of particles to add
             },
             repulse: {
-              distance: 60, // the distance of the particles from the mouse
+              distance: 80, // the distance of the particles from the mouse
             },
           },
         },
@@ -141,7 +141,7 @@
           },
           move: {
             enable: true, // this makes particles move
-            speed: { min: 1, max: 3 }, // this is the speed of the particles
+            speed: { min: 3, max: 6 }, // this is the speed of the particles
           },
           opacity: {
             value: { min: 0.3, max: 0.7 }, // this sets the opacity of the particles
