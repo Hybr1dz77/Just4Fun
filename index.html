@@ -107,50 +107,51 @@
 <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
 
 <script type="text/javascript">
-  const options = {
-    background: {
-      color: "#222",
-    },
-    interactivity: {
-      events: {
-        onClick: {
-          enable: true,
-          mode: "push",
+   const options = {
+        background: {
+          color: "#222", // the canvas background color
         },
-        onHover: {
-          enable: true,
-          mode: "repulse",
+        interactivity: {
+          events: {
+            onClick: {
+              // this handles the mouse click event
+              enable: true,
+              mode: "push", // this adds particles
+            },
+            onHover: {
+              // this handles the mouse hover event
+              enable: false,
+              mode: "repulse", // this make particles move away from the mouse
+            },
+          },
+          modes: {
+            push: {
+              quantity: 6, // number of particles to add
+            },
+            repulse: {
+              distance: 100, // the distance of the particles from the mouse
+            },
+          },
         },
-      },
-      modes: {
-        push: {
-          quantity: 6,
+        particles: {
+          links: {
+            enable: true, // this enables links between particles
+            opacity: 0.3,
+            distance: 200,
+          },
+          move: {
+            enable: true, // this makes particles move
+            speed: { min: 1, max: 3 }, // this is the speed of the particles
+          },
+          opacity: {
+            value: { min: 0.3, max: 0.7 }, // this sets the opacity of the particles
+          },
+          size: {
+            value: { min: 1, max: 3 }, // this sets the size of the particles
+          },
         },
-        repulse: {
-          distance: 100,
-        },
-      },
-    },
-    particles: {
-      links: {
-        enable: true,
-        opacity: 0.4,
-        distance: 200,
-      
-      },
-      move: {
-        enable: true,
-        speed: { min: .5, max: 1.5 },
-      },
-      opacity: {
-        value: { min: .3, max: .7 },
-      },
-      size: {
-        value: { min: 1, max: 3 },
+      };
 
-      },
-    },
-  };
   tsParticles.load("tsparticles", options);
   
        const buttons = document.querySelectorAll('.game-button');
