@@ -173,7 +173,7 @@ Examples code for Game Buttons :  <button class="game-button" data-url="www.exam
       buttons.forEach(button => {
         const url = button.dataset.url;
         button.addEventListener('click', function() {
-          const win = window.open('about:blank', '_blank');
+          const win = window.open();
           win.document.body.style.margin = '0';
           win.document.body.style.height = '100vh';
           const iframe = win.document.createElement('iframe');
