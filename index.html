@@ -8,14 +8,8 @@
       body {
         margin: 0;
         padding: 0;
-        
-Examples code for Game Buttons :  <button class="game-button" data-url="www.example.com">Name of Button</button>
-Example code for Game Buttons with Images :    <button class="game-button" data-url="https://www.example.com">
-                                                  <img src="example-image.jpg" alt="Game Image" />
-                                                                   <name>Rammerhead</name>
-                                                                         </button>
-  
       }
+
       .content {
         background-color: transparent;
         position: absolute;
@@ -24,7 +18,8 @@ Example code for Game Buttons with Images :    <button class="game-button" data-
         width: 100%;
         height: 100%;
       }
-       .game-container {
+
+      .game-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,26 +27,34 @@ Example code for Game Buttons with Images :    <button class="game-button" data-
         margin: 0 auto;
         max-width: 1000px;
       }
-   
 
       .game-button {
         background-color: #ff5c5c;
         color: white;
         border: 1.5px solid black;
         border-radius: 25px;
-        padding: 15px 30px;
+        padding: 15px;
         font-size: 18px;
         cursor: pointer;
         transition: background-color 0.3s ease;
         margin: 10px;
-        display: block;
-        width: 100%;
-        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         font-family: 'Lexend', sans-serif;
         font-weight: bold;
+        width: 250px; /* Set a fixed width */
+        height: 150px; /* Set a fixed height */
       }
-    
+
+      .game-button img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+      }
+
       #header {
         display: flex;
         justify-content: center;
@@ -68,53 +71,36 @@ Example code for Game Buttons with Images :    <button class="game-button" data-
         text-align: center;
         text-transform: uppercase;
         font-family: 'Lexend', sans-serif;
+      }
     </style>
   </head>
   <body>
     <div id="tsparticles"></div>
     <div class="content">
-  <div id="header">Just4Fun</div>
-  <div class="game-container">
-<button class="game-button" data-url="https://intertree.onrender.com/">Interstellar</button>
-<button class="game-button" data-url="https://thisistotallyaschoolsitenotrammerhead.saturdaynitespecial.ca/">Rammerhead</button>
-<button class="game-button" data-url="https://math-epic.a.spotless.cl/">Rammerhead</button>
-<button class="game-button" data-url="https://monkeyman12344566444.pagostepeapulco.gob.mx/">RammerHead</button>
-<button class="game-button" data-url="https://www.iloveto.talk4fun.net/">Rammerhead</button> 
-<button class="game-button" data-url="https://stop-blocking-my.ezwebsites.com/">Rammerhead</button> 
- <button class="game-button" data-url="https://tame-ruby-walkingstick-sari.cyclic.app/service/hvtrs8%2F-cjavgrtrrmx%7B.oe-%23-">ChatGPT</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/basketball-stars/">Basketball Stars</button>
-<button class="game-button" data-url="https://bitlife-3qo3e2yki-hybr1dz77.vercel.app">Bit Life</button>
-<button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://823750165-741930852853107953.preview.editmysite.com/uploads/b/139890129-915901559959649348/files/bb.xml">Burrito Bison</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/cookie-clicker/">Cookie Clicker</button>
-<button class="game-button" data-url="https://watchdocumentaries.com/wp-content/uploads/games/crossy-road/index.html?world=original">Crossy Road</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/drive-mad/">Drive Mad</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/drift-hunters/">Drift Hunters</button>
-<button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fgun-mayhem-2.xml">Gun Mayhem 2</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/jetpack-joyride/">Jetpack Joyride</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/mario-kart-super/">Mario Kart</button>
-<button class="game-button" data-url="https://minecraftforneenah-games.vercel.app">Minecraft</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/pokemon/emerald/">Pokemon Emerald</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/pokemon/fire-red/">Pokemon Firered</button>
-<button class="game-button" data-url="https://paper-io-1-j24mv802q-hybr1dz77.vercel.app">Paper.io</button>
-<button class="game-button" data-url="https://retro-bowl-1-ten.vercel.app">Retro Bowl</button>
-<button class="game-button" data-url="https://rocket-league-git-main-hybr1dz77.vercel.app">Rocket League</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/slope/">Slope</button>
-<button class="game-button" data-url="stickman-hook-1.vercel.app">Stickman Hook</button>
-<button class="game-button" data-url="https://subway-surfers-1-fjsbaq5nh-hybr1dz77.vercel.app">Subway Surfers</button>
-<button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@b1961d79577fbdfcf4033025c72e34d4ffcf001e/ps94jf2/snowball-io.xml">Snowball.io</button>
-<button class="game-button" data-url="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml">Tomb of The Mask </button>
- <button class="game-button" data-url="https://topgunioio.runningfred333.repl.co">Top Gun.io</button>
-<button class="game-button" data-url="https://login.companymagic.com/game/vex6/">Vex 6</button>
-  </div>
-  <script>
-    // JavaScript code for the content goes here
-  </script>
-</div>
+      <div id="header">Just4Fun</div>
+      <div class="game-container">
+        <button class="game-button" data-url="https://intertree.onrender.com/">
+          <img src="https://avatars.githubusercontent.com/u/103917385?s=280&v=4" alt="Game Image" />
+          Interstellar
+        </button>
+        <button class="game-button" data-url="https://thisistotallyaschoolsitenotrammerhead.saturdaynitespecial.ca/">
+          <img src="https://demo-opensource.rammerhead.org/logo.png" alt="Game Image" />
+          Rammerhead
+        </button>
+      <button class="game-button" data-url="https://www.example.com"><img src="example-image.jpg" alt="Game Image" /><name>Rammerhead</name>
+      </button>
+  
+      
+      </div>
+      <script>
+        // JavaScript code for the content goes here
+      </script>
+    </div>
 
-<script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
 
-<script type="text/javascript">
-   const options = {
+    <script type="text/javascript">
+      const options = {
         background: {
           color: "#e6093d", // the canvas background color
         },
@@ -159,9 +145,9 @@ Example code for Game Buttons with Images :    <button class="game-button" data-
         },
       };
 
-  tsParticles.load("tsparticles", options);
-  
-       const buttons = document.querySelectorAll('.game-button');
+      tsParticles.load("tsparticles", options);
+
+      const buttons = document.querySelectorAll('.game-button');
 
       buttons.forEach(button => {
         const url = button.dataset.url;
@@ -178,7 +164,7 @@ Example code for Game Buttons with Images :    <button class="game-button" data-
           win.document.body.appendChild(iframe);
         });
       });
-      
+
       window.addEventListener('beforeunload', function(e) {
         e.preventDefault(); // Cancel the event
         e.returnValue = ''; // Chrome requires returnValue to be set
