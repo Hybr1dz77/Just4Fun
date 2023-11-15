@@ -1,23 +1,19 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Docs</title>
-   <link rel="icon" href="https://i.postimg.cc/Bvx2syD1/Google-Docs-2020-Favicon.png" type="image/x-icon"/>
-    
-   </button>
-      <button class="game-button" data-url="https://www.example.com"><img src="example-image.jpg" alt="Game Image" /><name>Example Name</name>
-      </button>
-  
-    
-      </button>
+    <title>Canvas</title>
     <style>
       body {
         margin: 0;
         padding: 0;
-      }
+        
+Examples code for Game Buttons :  <button class="game-button" data-url="www.example.com">Name of Button</button>
 
+  
+      }
       .content {
         background-color: transparent;
         position: absolute;
@@ -26,8 +22,7 @@
         width: 100%;
         height: 100%;
       }
-
-      .game-container {
+       .game-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -35,48 +30,31 @@
         margin: 0 auto;
         max-width: 1000px;
       }
+   
 
-      .bigger-button {
-        position: relative;
-        z-index: 1;
-        width: 300px;
-        height: 180px;
-        font-size: 20px;
-      }
-      
-      
       .game-button {
-        background-color: #ff5c5c;
+        background-color: #ff5e5e;
         color: white;
         border: 1.5px solid black;
         border-radius: 25px;
-        padding: 15px;
+        padding: 15px 30px;
         font-size: 18px;
         cursor: pointer;
         transition: background-color 0.3s ease;
         margin: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
+        width: 100%;
+        max-width: 350px;
         text-align: center;
         font-family: 'Lexend', sans-serif;
         font-weight: bold;
-        width: 250px; /* Set a fixed width */
-        height: 150px; /* Set a fixed height */
       }
-
-      .game-button img {
-        width: 125px;
-        height: 125px;
-        margin-bottom: 10px;
-        border-radius: 50%;
-      }
-
+    
       #header {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ff5c5c;
+        background-color: #ff5e5e;
         border: 2px solid black;
         border-radius: 50px;
         width: 350px;
@@ -88,109 +66,64 @@
         text-align: center;
         text-transform: uppercase;
         font-family: 'Lexend', sans-serif;
-      }
     </style>
   </head>
   <body>
     <div id="tsparticles"></div>
     <div class="content">
-      <div id="header">Just4Fun</div>
-      <div class="game-container">
-   </button>
-      <button class="game-button" data-url="https://ocean-9ywk.onrender.com/ocean"><img src="https://i.postimg.cc/kGD7Q5KC/image.png" alt="Game Image" /><name>Better Site</name>
-      </button>
-    
-        <button class="game-button bigger-button" data-url="https://black-hole4-fun.vercel.app/"><img src="https://i.postimg.cc/kGD7Q5KC/image.png" alt="Game Image" /><name>Home + Partners</name></button>
-      </button>
-      
-      <button class="game-button" data-url="https://piano.garethmusic.com/"><img src="https://avatars.githubusercontent.com/u/103917385?s=280&v=4" alt="Game Image"  /><name>Interstellar</name>
-</button>
-</button>
-      <button class="game-button" data-url="https://monkeyman12344566444.pagostepeapulco.gob.mx/"><img src="https://c10.patreonusercontent.com/4/patreon-media/p/campaign/7323982/3383ecf277714d578de08f1ede3fef70/eyJ3Ijo5NjAsIndlIjoxfQ==/1.png?token-time=1685836800&token-hash=CqU4VGEDBu5KisJYLuiAQk5A-y8WOQmFmm9DQgUWZ0Y%3D" alt="Game Image" /><name>Rammerhead</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://bitlife-3qo3e2yki-hybr1dz77.vercel.app"><img src="https://i.postimg.cc/MZRJCmtz/image.png" alt="Game Image" /><name>Bit Life</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://retro-bowl-1-ten.vercel.app"><img src="https://i.postimg.cc/hvgNxDyJ/512x512bb.jpg" alt="Game Image" /><name>Retro Bowl</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://slope-game.vercel.app/"><img src="https://i.postimg.cc/hGFVXML2/image.jpg" alt="Game Image" /><name>Slope</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://sore-ingeborg-jangodev.koyeb.app/service/go/hvtrs8%2F-sviakoal-jomk%2F1%2Cvgraen.cpr%2F"><img src="https://i.postimg.cc/W1qG8tTY/99e090d154caf30f3625df7e456d5984.jpg" alt="Game Image" /><name>Stickman Hook</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://minecraftforneenah-games.vercel.app"><img src="https://i.postimg.cc/wB3kSFX2/986648642d1a68a3178f6869689cc260.png" alt="Game Image" /><name>Minecraft</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://paper-io-1-j24mv802q-hybr1dz77.vercel.app"><img src="https://i.postimg.cc/R0kkWrhN/fav.jpg" alt="Game Image" /><name>Paper.io 2</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://subway-surfers--hybr1dz77.repl.co"><img src="https://i.postimg.cc/FH5GkjQs/Barcelona2022-Icon.jpg" alt="Game Image" /><name>Subway Surfers</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://rocket-league-git-main-hybr1dz77.vercel.app"><img src="https://i.postimg.cc/HWrmsC24/rocket-league-icon-512x493-0qnogz5j.png" alt="Game Image" /><name>"Rocket League"</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml"><img src="https://i.postimg.cc/brB4kd9H/image.png" alt="Game Image" /><name>Tomb of the Mask</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://watchdocumentaries.com/wp-content/uploads/games/crossy-road/index.html?world=original"><img src="https://i.postimg.cc/902Fq81Y/crossy-road-endless-arcade-2014-12-02.png" alt="Game Image" /><name>Crossy Road</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fgun-mayhem-2.xml"><img src="https://i.postimg.cc/9fJcCQ2t/Gun-Mayhem-2.jpg" alt="Game Image" /><name>Gun Mayhem 2</name>
-       </button>
-</button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@b1961d79577fbdfcf4033025c72e34d4ffcf001e/ps94jf2/snowball-io.xml"><img src="https://i.postimg.cc/W4r0HxPv/image.png" alt="Game Image" /><name>Snowball.io</name>
-</button>
-   </button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://823750165-741930852853107953.preview.editmysite.com/uploads/b/139890129-915901559959649348/files/bb.xml"><img src="https://i.postimg.cc/qqs89N8P/image.png" alt="Game Image" /><name>Burrito Bison</name>
-      </button>
-   </button>
-      <button class="game-button" data-url="https://little-alchemy-2.vercel.app/"><img src="https://i.postimg.cc/T3RvgTz3/image.png" alt="Game Image" /><name>Little Alchemy 2</name>
-      </button>
-   </button>
-      <button class="game-button" data-url="https://webretro-f1gam4w5z-hybr1dz77.vercel.app/"><img src="https://i.postimg.cc/4nRgCB9w/image.png" alt="Game Image" /><name>Webretro</name>
-      </button>
- </button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://64345986-62434566.preview.editmysite.com/uploads/9/9/0/8/139890129/custom_themes/104868751615748392/files/basran.xml"><img src="https://i.postimg.cc/XYgMH546/image.jpg" alt="Game Image" /><name>Basketball Ball Random</name>
-      </button>
-   </button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/Cookie@9e0084916e9f198ed201bf47e93e6b0f2bdca5fe/cc.xml"><img src="https://i.postimg.cc/6pqVgJN6/image.png" alt="Game Image" /><name>Cookie Clicker</name>
-      </button>
-   </button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://493104753-963057148227461038.preview.editmysite.com/uploads/b/139890129-825858355833705451/files/ec.xml "><img src="https://i.postimg.cc/bJp4QNKN/image.jpg" alt="Game Image" /><name>Eggy Car</name>
-      </button>
-   </button>
-      <button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fbloons-tower-defense-4.xml"><img src="https://i.postimg.cc/66RY9NSM/bloons-td4-button-1660612386362.jpg" alt="Game Image" /><name>Bloons Tower Defense</name>
-      </button>
-   </button>
-      <button class="game-button" data-url="https://ultra-violet-rays.onrender.com/uv/service/hvtrs8%2F-kkria%2Cim%2F"><img src="https://i.postimg.cc/3w5HwGRq/Site-logo.png" alt="Game Image" /><name>Kirka.io</name>
-      </button>
-</button>
-      <button class="game-button" data-url="https://ultra-violet-rays.onrender.com/uv/service/hvtrs8%2F-w%3A.qnmkkdm.aoo%2Feaoeq%2Fpevrm%2Febc%2Fknfez.jtol%3Dg%3Fpmkgmmn%2Feoepand%2Fel%26t%3D1"><img src="https://i.postimg.cc/cJpLq427/pokemon-emerald-button-v1-1558057647830.jpg" alt="Game Image" /><name>Pokemon Emerald</name>
-      </button>
-     </button>
-      <button class="game-button" data-url="https://ultra-violet-rays.onrender.com/uv/service/hvtrs8%2F-w%3A.qnmkkdm.aoo%2Feaoeq%2Fpevrm%2Febc%2Fknfez.jtol%3Dg%3Fpmkgmmn%2Ffkrgrgd%2Fel%26t%3D1"><img src="https://i.postimg.cc/KzfwP0PK/1200px-Pokemon-Fire-Red-svg.png" alt="Game Image" /><name>Pokemon Fire Red</name>
-      </button>
-  </button>
-      <button class="game-button" data-url="https://ultra-violet-rays.onrender.com/uv/service/hvtrs8%2F-apcjite%2Copg-eobgd-mqdms%5DOpeeol_Vrcin_Vhg_39%3B0"><img src="https://i.postimg.cc/KzjrWQX3/2022111609025900-010558-F429-C25-C6688-B87-B1-AB272-C2-C5.jpg" alt="Game Image" /><name>Oregon Trail</name>
-  
+  <div id="header">Just4Fun</div>
+  <div class="game-container">
+<button class="game-button" data-url="https://interstellarreal.onrender.com">Interstellar</button>
+<button class="game-button" data-url="https://lucky-crow-coat.cyclic.app/games">Radon Games</button>
+<button class="game-button" data-url="https://aromatic-global-baroness.glitch.me/uv/service/hvtrs8%2F-sjuvtne%2Fgcmgs%2Fh6z%3Adey%3As%2Fh%7Bbp1fz57%2Cvgraen.cpr%2F">Roblox Down RN</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-mwskc%2Cymuvu%60e%2Ccmm-">YT Music</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-wuw%2Ccjeqs%2Ccmm-">Chess.com</button>
+ <button class="game-button" data-url="https://dalle-davinci.netlify.app">ChatGPT</button>
+<button class="game-button" data-url="https://humble-boom-cockroach.glitch.me">Nebula</button>
+<button class="game-button" data-url="https://ultraviolet-jai4.onrender.com">Ultraviolet</button>
+<button class="game-button" data-url="https://goahead.pii.at">Rammer Head</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/basketball-stars/">Basketball Stars</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-v4p%3Bd%3Bt6.qsn.jwadl.lev%2Fjtol-1%3A15927-BnomdVowrlaoelt%5DWgbEl-ildgx%2Chvmn%3Ft%3D3557441823">Blood Tournament</button> 
+<button class="game-button" data-url="https://bitlife-3qo3e2yki-hybr1dz77.vercel.app">Bit Life</button>
+<button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://823750165-741930852853107953.preview.editmysite.com/uploads/b/139890129-915901559959649348/files/bb.xml">Burrito Bison</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/cookie-clicker/">Cookie Clicker</button>
+<button class="game-button" data-url="https://watchdocumentaries.com/wp-content/uploads/games/crossy-road/index.html?world=original">Crossy Road</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/drive-mad/">Drive Mad</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/drift-hunters/">Drift Hunters</button>
+<button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fgun-mayhem-2.xml">Gun Mayhem 2</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/jetpack-joyride/">Jetpack Joyride</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-kkria%2Cim%2F">Kirka.io</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-lktvlgancjeoy0.aoo%2F">Little Alchemy 2</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/mario-kart-super/">Mario Kart</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-gpaldaalymnqhwtvlgs%2Ccmm-urlmafs-5-5-6-7-57651%3B4-cwsvoo_vhgmgs-5%3B34772513735%3A6%3B77%2Foofepn%5Dbnoak%7B_raknv_%2Chvmn">Modern Blockey Paint</button>
+<button class="game-button" data-url="https://minecraftforneenah-games.vercel.app">Minecraft</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-mmnie%7B-oapkgt%2F1%2Fgv7x.tepcgl%2Carp">Monkey Mart</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/pokemon/emerald/">Pokemon Emerald</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/pokemon/fire-red/">Pokemon Firered</button>
+<button class="game-button" data-url="https://paper-io-1-j24mv802q-hybr1dz77.vercel.app">Paper.io</button>
+<button class="game-button" data-url="https://retro-bowl-1-ten.vercel.app">Retro Bowl</button>
+<button class="game-button" data-url="https://rocket-league-git-main-hybr1dz77.vercel.app">Rocket League</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/slope/">Slope</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtr%3A-%2Fqlktjep.ko">Slither.io</button> 
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-sviakoal-jomk%2F1%2Cvgraen.cpr">Stickman Hook</button>
+<button class="game-button" data-url="https://subway-surfers-1-fjsbaq5nh-hybr1dz77.vercel.app">Subway Surfers</button>
+<button class="game-button" data-url="https://interstellarreal.onrender.com/service/hvtrs8%2F-soaqhiaptq.ko-">Smash Karts</button>
+<button class="game-button" data-url="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@b1961d79577fbdfcf4033025c72e34d4ffcf001e/ps94jf2/snowball-io.xml">Snowball.io</button>
+<button class="game-button" data-url="https://gg-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@4487c13b114e3b97c0d1e18dd381193bf62175f5/d5fuh3d/tomb_of_the_mask.xml">Tomb of The Mask </button>
+ <button class="game-button" data-url="https://topgunioio.runningfred333.repl.co">Top Gun.io</button>
+<button class="game-button" data-url="https://login.companymagic.com/game/vex6/">Vex 6</button>
+  </div>
+  <script>
+    // JavaScript code for the content goes here
+  </script>
+</div>
 
-  
-      
-      </div>
-      <script>
-        // JavaScript code for the content goes here
-      </script>
-    </div>
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
 
-    <script type="text/javascript">
-      const options = {
+<script type="text/javascript">
+   const options = {
         background: {
-          color: "#333333", // the canvas background color
+          color: "#222", // the canvas background color
         },
         interactivity: {
           events: {
@@ -207,7 +140,7 @@
           },
           modes: {
             push: {
-              quantity: 2, // number of particles to add
+              quantity: 3, // number of particles to add
             },
             repulse: {
               distance: 100, // the distance of the particles from the mouse
@@ -218,11 +151,11 @@
           links: {
             enable: true, // this enables links between particles
             opacity: 0.3,
-            distance: 105,
+            distance: 200,
           },
           move: {
             enable: true, // this makes particles move
-            speed: { min: 1, max: 3 }, // this is the speed of the particles
+            speed: { min: 1, max: 5 }, // this is the speed of the particles
           },
           opacity: {
             value: { min: 0.3, max: 0.7 }, // this sets the opacity of the particles
@@ -233,14 +166,14 @@
         },
       };
 
-      tsParticles.load("tsparticles", options);
-
-      const buttons = document.querySelectorAll('.game-button');
+  tsParticles.load("tsparticles", options);
+  
+       const buttons = document.querySelectorAll('.game-button');
 
       buttons.forEach(button => {
         const url = button.dataset.url;
         button.addEventListener('click', function() {
-          const win = window.open();
+          const win = window.open('about:blank', '_blank');
           win.document.body.style.margin = '0';
           win.document.body.style.height = '100vh';
           const iframe = win.document.createElement('iframe');
@@ -252,7 +185,7 @@
           win.document.body.appendChild(iframe);
         });
       });
-
+      
       window.addEventListener('beforeunload', function(e) {
         e.preventDefault(); // Cancel the event
         e.returnValue = ''; // Chrome requires returnValue to be set
